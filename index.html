@@ -14,7 +14,7 @@
     </div>
     
 
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Add a new book.</button>
+<button id = "addButton" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Add a new book.</button>
 
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -29,21 +29,21 @@
         <form>
           <div class="form-group">
             <label for="title-name" class="col-form-label">Title:</label>
-            <input type="text" class="form-control" id="recipient-name">
+            <input id = "title" type="text" class="form-control" id="recipient-name">
           </div>
           <div class="form-group">
             <label for="author-name" class="col-form-label">Author:</label>
-            <input type="text" class="form-control" id="recipient-name">
+            <input id = "author" type="text" class="form-control" id="recipient-name">
           </div>
           <div class="form-group">
-            <label for="pages" class="col-form-label">Pages:</label>
-            <input type="text" class="form-control" id="recipient-name">
+            <label  for="pages" class="col-form-label">Pages:</label>
+            <input id = "pages" type="text" class="form-control" id="recipient-name">
           </div>
         </form>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Add Book</button>
+        <button id = "addBook" type="button" class="btn btn-primary">Add Book</button>
       </div>
     </div>
   </div>
@@ -55,7 +55,7 @@
           <h5 id = "bookTitle" class="card-title">Lord Of The rings</h5>
           <p id = "bookAuthor" class="card-text">Author: J.R.R Tolkien.</p>
           <p id= "pageCount" class="card-text">Pages: 500.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <input type="checkbox" checked data-toggle="toggle"> Have read?</input>
         </div>
       </div>
 
