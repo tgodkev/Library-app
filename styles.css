@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(37, 37, 39);
+    background-color: rgb(38, 165, 177);
 }
 
 
@@ -7,20 +7,21 @@ body{
     background-color: rgba(249, 250, 253, 0.692);
     font-size: 1rem;
     font-family: "Arvo";
-    margin-left: 35%;
+    margin-left: 40%;
     margin-top: 10px;
     
 }
 
 .title{
-    background-color: rgb(24, 3, 44);
+    background-color: rgba(165, 15, 128, 0.568);
     font-size: 5rem;
     color: #eef1f8;
     font-family: "Arvo", cursive;
     text-shadow: 3px 0 #DA0463;
+    text-align: center;
 }
 
 #addButton{
     font-family: "Arvo, cursive";
-    margin-left: 40%;
+    margin-left: 45%;
 }
