@@ -18,11 +18,3 @@ body{
     margin-top: 0%;
 }
 
-#addButton{
-    font-family: "Arvo, cursive";
-    margin-left: 45%;
-}
-
-#bookElement{
-    display: none;
-}
