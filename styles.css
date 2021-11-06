@@ -1,16 +1,12 @@
 body{
     background-color: rgb(38, 165, 177);
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 
-#library{
-    background-color: rgba(249, 250, 253, 0.692);
-    font-size: 1rem;
-    font-family: "Arvo";
-    margin-left: 40%;
-    margin-top: 10px;
-    
-}
+
 
 .title{
     background-color: rgba(165, 15, 128, 0.568);
@@ -19,9 +15,14 @@ body{
     font-family: "Arvo", cursive;
     text-shadow: 3px 0 #DA0463;
     text-align: center;
+    margin-top: 0%;
 }
 
 #addButton{
     font-family: "Arvo, cursive";
     margin-left: 45%;
+}
+
+#bookElement{
+    display: none;
 }
