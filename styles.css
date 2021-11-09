@@ -1,20 +1,67 @@
-body{
-    background-color: rgb(38, 165, 177);
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-
-
-
-.title{
-    background-color: rgba(165, 15, 128, 0.568);
-    font-size: 5rem;
-    color: #eef1f8;
-    font-family: "Arvo", cursive;
-    text-shadow: 3px 0 #DA0463;
+body {
     text-align: center;
-    margin-top: 0%;
+    background: #b4b1a8;
+    font-family: American typewriter, sans serif;
+
 }
 
+h1 {
+    background-color: #210d57;
+    padding: 45px;
+    margin: -10px;
+    border-bottom: 5px solid #7e8a97;
+    
+}
+
+div {
+    display: inline-block;
+}
+
+#table {
+    display: block;
+    margin-top: 20px;
+    font-size: large;
+}
+
+button {
+    background-color: #8f72258c;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: large;
+
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    background-color: #abb19a;
+}
+
+th {
+    background-color: #262c31;
+    color: antiquewhite;
+}
+
+#form-box {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#newBook {
+    margin-bottom: 20px;
+    background-color: #7ea9b1c0;
+    border-radius: 10%;
+    padding: 10px;
+    font-family: American typewriter, sans serif;
+
+}
+
+#submit {
+    margin-top: 10px;
+    background-color: #3e6f86;
+    border-radius: 10%;
+    padding: 10px;
+    font-family: American typewriter, sans serif;
+
+}
